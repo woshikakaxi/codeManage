@@ -7,7 +7,7 @@
 //
 
 #import "firstViewController.h"
-
+#import "AppDelegate.h"
 @interface firstViewController ()
 
 @end
@@ -16,10 +16,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+     self.navigationItem.title = @"我有";
     self.view.backgroundColor = [UIColor blueColor];
-    // Do any additional setup after loading the view.
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"bar_btn_icon_collect"] style:UIBarButtonItemStyleDone target:self action:@selector(DrawLeft:)];
+      // Do any additional setup after loading the view.
 }
 
+-(void)DrawLeft:(UIBarButtonItem *)item{
+    [ApplicationDelegate.XDtababr.Drawer open];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

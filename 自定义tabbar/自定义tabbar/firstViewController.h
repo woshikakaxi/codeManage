@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "ICSDrawerController.h"
+#import "XDTarBarViewController.h"
 @interface firstViewController : UIViewController
-
+//<ICSDrawerControllerChild,ICSDrawerControllerPresenting>
+//@property (nonatomic,weak) ICSDrawerController *Drawer;
+//@property (nonatomic,strong) XDTarBarViewController *tabbar;
 @end

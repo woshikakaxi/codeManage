@@ -100,6 +100,8 @@
 		7103E3ED1C995EF5006BE342 /* bb4-over@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7103E3DE1C995EF5006BE342 /* bb4-over@3x.png */; };
 		7103E3EE1C995EF5006BE342 /* bb5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7103E3DF1C995EF5006BE342 /* bb5@2x.png */; };
 		7103E3EF1C995EF5006BE342 /* bb5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7103E3E01C995EF5006BE342 /* bb5@3x.png */; };
+		712D202E1C9A8739003A4115 /* ICSDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 712D202B1C9A8739003A4115 /* ICSDrawerController.m */; };
+		712D202F1C9A8739003A4115 /* ICSDropShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 712D202D1C9A8739003A4115 /* ICSDropShadowView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -226,6 +228,10 @@
 		7103E3DE1C995EF5006BE342 /* bb4-over@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bb4-over@3x.png"; sourceTree = "<group>"; };
 		7103E3DF1C995EF5006BE342 /* bb5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bb5@2x.png"; sourceTree = "<group>"; };
 		7103E3E01C995EF5006BE342 /* bb5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bb5@3x.png"; sourceTree = "<group>"; };
+		712D202A1C9A8739003A4115 /* ICSDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICSDrawerController.h; sourceTree = "<group>"; };
+		712D202B1C9A8739003A4115 /* ICSDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSDrawerController.m; sourceTree = "<group>"; };
+		712D202C1C9A8739003A4115 /* ICSDropShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICSDropShadowView.h; sourceTree = "<group>"; };
+		712D202D1C9A8739003A4115 /* ICSDropShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSDropShadowView.m; sourceTree = "<group>"; };
 		A50E51F850B5ACE9E9C98816 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -427,8 +433,20 @@
 		712D20281C9A4F82003A4115 /* XDSidesLip */ = {
 			isa = PBXGroup;
 			children = (
+				712D20291C9A8739003A4115 /* ICSDrawerController */,
 			);
 			path = XDSidesLip;
+			sourceTree = "<group>";
+		};
+		712D20291C9A8739003A4115 /* ICSDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				712D202A1C9A8739003A4115 /* ICSDrawerController.h */,
+				712D202B1C9A8739003A4115 /* ICSDrawerController.m */,
+				712D202C1C9A8739003A4115 /* ICSDropShadowView.h */,
+				712D202D1C9A8739003A4115 /* ICSDropShadowView.m */,
+			);
+			path = ICSDrawerController;
 			sourceTree = "<group>";
 		};
 		8ECD8517CE68C8D24D7CBE21 /* Pods */ = {
@@ -709,6 +727,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				712D202F1C9A8739003A4115 /* ICSDropShadowView.m in Sources */,
+				712D202E1C9A8739003A4115 /* ICSDrawerController.m in Sources */,
 				7103E3481C994669006BE342 /* FourthViewController.m in Sources */,
 				7103E3421C994647006BE342 /* SecondViewController.m in Sources */,
 				7103E30C1C9945DA006BE342 /* AppDelegate.m in Sources */,

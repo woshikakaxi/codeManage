@@ -7,12 +7,15 @@
 //
 
 #import "AppDelegate.h"
-#import "XDTarBarViewController.h"
+
+#import "ICSDrawerController.h"
 #import "firstViewController.h"
 #import "SecondViewController.h"
 #import "ThereViewController.h"
 #import "FourthViewController.h"
 #import <AFNetworking/AFNetworking.h>
+
+
 @interface AppDelegate ()
 
 @end
@@ -26,14 +29,24 @@
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = [UIViewController new];
     //自定义tabbar的实现以后逐渐完善(也会加一些其它封装的东西用type的值决定)
+   
+    firstViewController *filst = [[firstViewController alloc]init];
     
+
     
-    int type = 0;
+    int type = 1;
     switch (type) {
         case 0://自定义tabbar选用XDTbabar框架
             self.window.rootViewController = [XDTarBarViewController initXDTabBar];
             break;
+        case 1:{
+            //侧滑控件（实现了侧滑和tabbar的联合使用）
+            self.XDtababr = [[XDTarBarViewController alloc]init];
+            ICSDrawerController *draw = [[ICSDrawerController alloc]initWithLeftViewController:filst centerViewController:self.XDtababr];
+            self.window.rootViewController = draw;
+        }
             
+            break;
         default:
             break;
     }

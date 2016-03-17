@@ -118,4 +118,19 @@
 }
 */
 
+/*
+侧滑的协议方法以下是
+*/
+- (void)drawerControllerWillOpen:(ICSDrawerController *)drawerController
+{
+    self.view.userInteractionEnabled = NO;
+    
+}
+
+- (void)drawerControllerDidClose:(ICSDrawerController *)drawerController
+{
+    self.view.userInteractionEnabled = YES;
+}
+
+
 @end
