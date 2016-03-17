@@ -67,11 +67,10 @@
   
     backImageVIew.userInteractionEnabled = YES;
     
-    for (int i = 0; i < titleArray.count; i++) {
+    for (int i = 0; i < imageNormalArray.count; i++) {
         UIButton *Btn = [UIButton buttonWithType:UIButtonTypeCustom];
-        Btn.frame = CGRectMake(0+WIDTH/titleArray.count*i, 0, WIDTH/titleArray.count, backImageVIew.frame.size.height);
-        [Btn setTitle:titleArray[i] forState:UIControlStateNormal];
-        [Btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        Btn.frame = CGRectMake(0+WIDTH/imageNormalArray.count*i, 0, WIDTH/imageNormalArray.count, backImageVIew.frame.size.height);
+       
         Btn.titleLabel.font = [UIFont systemFontOfSize:10.0f];
         Btn.titleLabel.textAlignment = NSTextAlignmentCenter;
         [Btn setImage:[UIImage imageNamed:imageNormalArray[i]] forState:UIControlStateNormal];

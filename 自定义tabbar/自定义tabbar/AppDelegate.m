@@ -12,6 +12,7 @@
 #import "SecondViewController.h"
 #import "ThereViewController.h"
 #import "FourthViewController.h"
+#import <AFNetworking/AFNetworking.h>
 @interface AppDelegate ()
 
 @end
@@ -29,7 +30,7 @@
     
     int type = 0;
     switch (type) {
-        case 0://自定义tabbar
+        case 0://自定义tabbar选用XDTbabar框架
             self.window.rootViewController = [XDTarBarViewController initXDTabBar];
             break;
             
