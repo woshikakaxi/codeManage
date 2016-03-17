@@ -25,6 +25,8 @@
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = [UIViewController new];
     //自定义tabbar的实现以后逐渐完善(也会加一些其它封装的东西用type的值决定)
+    
+    
     int type = 0;
     switch (type) {
         case 0://自定义tabbar

@@ -253,6 +253,7 @@
 		7103E2FB1C9945D9006BE342 = {
 			isa = PBXGroup;
 			children = (
+				712D20281C9A4F82003A4115 /* XDSidesLip */,
 				7103E34D1C9954BE006BE342 /* Images */,
 				7103E3491C994693006BE342 /* XDTbabar */,
 				7103E3061C9945D9006BE342 /* 自定义tabbar */,
@@ -414,6 +415,13 @@
 				7103E38F1C9954BE006BE342 /* 热门跟帖@2x.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		712D20281C9A4F82003A4115 /* XDSidesLip */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = XDSidesLip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -852,6 +860,7 @@
 				7103E3361C9945DA006BE342 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7103E3371C9945DA006BE342 /* Build configuration list for PBXNativeTarget "自定义tabbarTests" */ = {
 			isa = XCConfigurationList;
@@ -860,6 +869,7 @@
 				7103E3391C9945DA006BE342 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7103E33A1C9945DA006BE342 /* Build configuration list for PBXNativeTarget "自定义tabbarUITests" */ = {
 			isa = XCConfigurationList;
@@ -868,6 +878,7 @@
 				7103E33C1C9945DA006BE342 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
