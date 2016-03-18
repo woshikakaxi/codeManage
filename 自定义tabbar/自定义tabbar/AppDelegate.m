@@ -13,6 +13,7 @@
 #import "SecondViewController.h"
 #import "ThereViewController.h"
 #import "FourthViewController.h"
+#import "LeftViewController.h"
 #import <AFNetworking/AFNetworking.h>
 
 
@@ -30,9 +31,9 @@
     self.window.rootViewController = [UIViewController new];
     //自定义tabbar的实现以后逐渐完善(也会加一些其它封装的东西用type的值决定)
    
-    firstViewController *filst = [[firstViewController alloc]init];
+   
     
-
+    LeftViewController *left = [[LeftViewController alloc]init];
     
     int type = 1;
     switch (type) {
@@ -42,7 +43,7 @@
         case 1:{
             //侧滑控件（实现了侧滑和tabbar的联合使用）
             self.XDtababr = [[XDTarBarViewController alloc]init];
-            ICSDrawerController *draw = [[ICSDrawerController alloc]initWithLeftViewController:filst centerViewController:self.XDtababr];
+            ICSDrawerController *draw = [[ICSDrawerController alloc]initWithLeftViewController:left centerViewController:self.XDtababr];
             self.window.rootViewController = draw;
         }
             

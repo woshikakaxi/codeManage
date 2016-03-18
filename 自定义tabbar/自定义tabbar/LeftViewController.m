@@ -1,27 +1,22 @@
 //
-//  FourthViewController.m
+//  LeftViewController.m
 //  自定义tabbar
 //
-//  Created by 杨超 on 16/3/16.
+//  Created by 杨超 on 16/3/18.
 //  Copyright © 2016年 王晓东. All rights reserved.
 //
 
-#import "FourthViewController.h"
+#import "LeftViewController.h"
 
-@interface FourthViewController ()
+@interface LeftViewController ()
 
 @end
 
-@implementation FourthViewController
+@implementation LeftViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor grayColor];
-    
-    UIImageView *imageview = [UIImageView new];
-    imageview.frame = self.view.frame;
-    imageview.backgroundColor = [UIColor redColor];
-    [self.view addSubview:imageview];
+    self.view.backgroundColor = [UIColor blueColor];
     // Do any additional setup after loading the view.
 }
 

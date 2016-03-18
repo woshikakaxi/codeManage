@@ -102,6 +102,7 @@
 		7103E3EF1C995EF5006BE342 /* bb5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7103E3E01C995EF5006BE342 /* bb5@3x.png */; };
 		712D202E1C9A8739003A4115 /* ICSDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 712D202B1C9A8739003A4115 /* ICSDrawerController.m */; };
 		712D202F1C9A8739003A4115 /* ICSDropShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 712D202D1C9A8739003A4115 /* ICSDropShadowView.m */; };
+		71BE94C21C9BD33C001769BA /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BE94C11C9BD33C001769BA /* LeftViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -232,6 +233,9 @@
 		712D202B1C9A8739003A4115 /* ICSDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSDrawerController.m; sourceTree = "<group>"; };
 		712D202C1C9A8739003A4115 /* ICSDropShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICSDropShadowView.h; sourceTree = "<group>"; };
 		712D202D1C9A8739003A4115 /* ICSDropShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSDropShadowView.m; sourceTree = "<group>"; };
+		71BE94BF1C9BD228001769BA /* XDPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDPrefixHeader.pch; sourceTree = "<group>"; };
+		71BE94C01C9BD33C001769BA /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		71BE94C11C9BD33C001769BA /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
 		A50E51F850B5ACE9E9C98816 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -291,6 +295,8 @@
 			children = (
 				7103E30A1C9945DA006BE342 /* AppDelegate.h */,
 				7103E30B1C9945DA006BE342 /* AppDelegate.m */,
+				71BE94C01C9BD33C001769BA /* LeftViewController.h */,
+				71BE94C11C9BD33C001769BA /* LeftViewController.m */,
 				7103E33D1C99461C006BE342 /* firstViewController.h */,
 				7103E33E1C99461C006BE342 /* firstViewController.m */,
 				7103E3401C994647006BE342 /* SecondViewController.h */,
@@ -311,6 +317,7 @@
 			isa = PBXGroup;
 			children = (
 				7103E3081C9945DA006BE342 /* main.m */,
+				71BE94BF1C9BD228001769BA /* XDPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -728,6 +735,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				712D202F1C9A8739003A4115 /* ICSDropShadowView.m in Sources */,
+				71BE94C21C9BD33C001769BA /* LeftViewController.m in Sources */,
 				712D202E1C9A8739003A4115 /* ICSDrawerController.m in Sources */,
 				7103E3481C994669006BE342 /* FourthViewController.m in Sources */,
 				7103E3421C994647006BE342 /* SecondViewController.m in Sources */,
@@ -869,6 +877,8 @@
 			baseConfigurationReference = 40DA2D0BF6AD323F8CEC6315 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/yangchao/codeManage/自定义tabbar/自定义tabbar/XDPrefixHeader.pch";
 				INFOPLIST_FILE = "自定义tabbar/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -882,6 +892,8 @@
 			baseConfigurationReference = 16EA8168B7E5EE41324477FE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/yangchao/codeManage/自定义tabbar/自定义tabbar/XDPrefixHeader.pch";
 				INFOPLIST_FILE = "自定义tabbar/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
