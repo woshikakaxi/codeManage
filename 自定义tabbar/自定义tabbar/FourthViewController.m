@@ -7,7 +7,7 @@
 //
 
 #import "FourthViewController.h"
-
+#import "ThereViewController.h"
 @interface FourthViewController ()
 
 @end
@@ -18,11 +18,20 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor grayColor];
     
-    UIImageView *imageview = [UIImageView new];
-    imageview.frame = self.view.frame;
-    imageview.backgroundColor = [UIColor redColor];
-    [self.view addSubview:imageview];
     // Do any additional setup after loading the view.
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"Block" style:UIBarButtonItemStyleDone target:self action:@selector(XDPressTher)];
+
+}
+-(void)XDPressThere{
+    ThereViewController *new = [[ThereViewController alloc]init];
+//    [new setReturnrefreshColorBlock:^{
+//        self.view.backgroundColor = [UIColor whiteColor];
+//    }];
+    [new setRefreshShakeMygoldClikBlock:^(UIColor *color) {
+        self.view.backgroundColor = color;
+    }];
+      [self.navigationController pushViewController:new
+                                         animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

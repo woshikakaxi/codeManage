@@ -18,8 +18,23 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor purpleColor];
     // Do any additional setup after loading the view.
+    UIButton *button = [UIButton new];
+    
+    button.frame = [UIScreen mainScreen].bounds;
+    [button addTarget:self action:@selector(pressblock) forControlEvents:UIControlEventTouchUpInside];
+    [button setTitle:@"点我" forState:UIControlStateNormal];
+    [self.view addSubview:button];
+    
 }
-
+-(void)pressblock{
+    if (self.returnrefreshColorBlock) {
+       
+        self.returnrefreshColorBlock();
+    }
+    if (self.refreshShakeMygoldClikBlock) {
+        self.refreshShakeMygoldClikBlock([UIColor blueColor]);
+    }    [self.navigationController popViewControllerAnimated:YES];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

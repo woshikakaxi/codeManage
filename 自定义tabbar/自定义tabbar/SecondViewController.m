@@ -7,7 +7,7 @@
 //
 
 #import "SecondViewController.h"
-
+#import "ThereViewController.h"
 @interface SecondViewController ()
 
 @end
@@ -23,9 +23,9 @@
     view.backgroundColor = [UIColor blackColor];
     [self.view addSubview:view];
     
+        
     // Do any additional setup after loading the view.
 }
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

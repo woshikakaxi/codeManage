@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ThereViewController : UIViewController
-
+@property (nonatomic,copy) void(^returnrefreshColorBlock)();
+@property (nonatomic,copy) void(^refreshShakeMygoldClikBlock)(UIColor *color);
 @end
