@@ -19,7 +19,7 @@
     self.view.backgroundColor = [UIColor grayColor];
     
     // Do any additional setup after loading the view.
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"Block" style:UIBarButtonItemStyleDone target:self action:@selector(XDPressTher)];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"Block" style:UIBarButtonItemStyleDone target:self action:@selector(XDPressThere)];
 
 }
 -(void)XDPressThere{
