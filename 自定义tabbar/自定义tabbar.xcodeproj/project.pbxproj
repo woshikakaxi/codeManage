@@ -102,7 +102,9 @@
 		7103E3EF1C995EF5006BE342 /* bb5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7103E3E01C995EF5006BE342 /* bb5@3x.png */; };
 		712D202E1C9A8739003A4115 /* ICSDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 712D202B1C9A8739003A4115 /* ICSDrawerController.m */; };
 		712D202F1C9A8739003A4115 /* ICSDropShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 712D202D1C9A8739003A4115 /* ICSDropShadowView.m */; };
+		7194FC1B1CDA01560043A13F /* XdTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7194FC1A1CDA01560043A13F /* XdTabView.m */; };
 		71BE94C21C9BD33C001769BA /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BE94C11C9BD33C001769BA /* LeftViewController.m */; };
+		71E0EE1E1CDAF0B400A68707 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E0EE1D1CDAF0B400A68707 /* BaseTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -233,9 +235,13 @@
 		712D202B1C9A8739003A4115 /* ICSDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSDrawerController.m; sourceTree = "<group>"; };
 		712D202C1C9A8739003A4115 /* ICSDropShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICSDropShadowView.h; sourceTree = "<group>"; };
 		712D202D1C9A8739003A4115 /* ICSDropShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSDropShadowView.m; sourceTree = "<group>"; };
+		7194FC191CDA01560043A13F /* XdTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XdTabView.h; sourceTree = "<group>"; };
+		7194FC1A1CDA01560043A13F /* XdTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XdTabView.m; sourceTree = "<group>"; };
 		71BE94BF1C9BD228001769BA /* XDPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDPrefixHeader.pch; sourceTree = "<group>"; };
 		71BE94C01C9BD33C001769BA /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
 		71BE94C11C9BD33C001769BA /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		71E0EE1C1CDAF0B400A68707 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		71E0EE1D1CDAF0B400A68707 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
 		A50E51F850B5ACE9E9C98816 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -452,6 +458,10 @@
 				712D202B1C9A8739003A4115 /* ICSDrawerController.m */,
 				712D202C1C9A8739003A4115 /* ICSDropShadowView.h */,
 				712D202D1C9A8739003A4115 /* ICSDropShadowView.m */,
+				71E0EE1C1CDAF0B400A68707 /* BaseTableViewController.h */,
+				71E0EE1D1CDAF0B400A68707 /* BaseTableViewController.m */,
+				7194FC191CDA01560043A13F /* XdTabView.h */,
+				7194FC1A1CDA01560043A13F /* XdTabView.m */,
 			);
 			path = ICSDrawerController;
 			sourceTree = "<group>";
@@ -740,9 +750,11 @@
 				7103E3481C994669006BE342 /* FourthViewController.m in Sources */,
 				7103E3421C994647006BE342 /* SecondViewController.m in Sources */,
 				7103E30C1C9945DA006BE342 /* AppDelegate.m in Sources */,
+				7194FC1B1CDA01560043A13F /* XdTabView.m in Sources */,
 				7103E34C1C9946D1006BE342 /* XDTarBarViewController.m in Sources */,
 				7103E33F1C99461C006BE342 /* firstViewController.m in Sources */,
 				7103E3451C994659006BE342 /* ThereViewController.m in Sources */,
+				71E0EE1E1CDAF0B400A68707 /* BaseTableViewController.m in Sources */,
 				7103E3091C9945DA006BE342 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

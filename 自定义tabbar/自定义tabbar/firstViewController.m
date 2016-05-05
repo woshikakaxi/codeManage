@@ -39,12 +39,10 @@
     NSArray *array = @[@"好友",@"关注",@"粉丝"];
     self.segementControl = [[UISegmentedControl alloc]initWithItems:array];
     self.segementControl.frame = CGRectMake(20, 0, WIDTH-40, 30);
-   // self.segementControl.tintColor = [UIColor redColor];
     [self.view addSubview:self.segementControl];
     [self.segementControl addTarget:self action:@selector(change:) forControlEvents:UIControlEventValueChanged];
-//    [there didMoveToParentViewController:self];
     self.currentViewController= second;
-    
+    self.segementControl.selectedSegmentIndex = 0;
     self.navigationItem.titleView = self.segementControl;
     ;
     [self addChildViewController:second];
@@ -87,7 +85,6 @@
             break;
         case 2: {
             [self transitionFromViewController:self.currentViewController toViewController:four duration:1 options:UIViewAnimationOptionRepeat  animations:^{
-//                self.view.alpha = 0.1;
             } completion:^(BOOL finished) {
                 if(finished) {
                     self.currentViewController = four;
