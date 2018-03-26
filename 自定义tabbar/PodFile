@@ -1,2 +1,17 @@
-platform:ios, '7.0'
-pod 'AFNetworking', '~> 3.0.4'
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '8.0'
+
+target '自定义tabbar' do
+    pod 'AFNetworking', '~> 3.0.4'
+    pod 'ReactiveObjC', '~> 3.1.0'
+  target '自定义tabbarTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target '自定义tabbarUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

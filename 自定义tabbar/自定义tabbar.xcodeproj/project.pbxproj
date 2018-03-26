@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E98FFB858B273AD7F6E4135 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A50E51F850B5ACE9E9C98816 /* libPods.a */; };
+		60C2CCAF3B22AB8292091D12 /* libPods-自定义tabbarUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5D579A53936F7F45E4E082 /* libPods-自定义tabbarUITests.a */; };
 		7103E3091C9945DA006BE342 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7103E3081C9945DA006BE342 /* main.m */; };
 		7103E30C1C9945DA006BE342 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7103E30B1C9945DA006BE342 /* AppDelegate.m */; };
 		7103E3171C9945DA006BE342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7103E3161C9945DA006BE342 /* Assets.xcassets */; };
@@ -105,6 +105,11 @@
 		7194FC1B1CDA01560043A13F /* XdTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7194FC1A1CDA01560043A13F /* XdTabView.m */; };
 		71BE94C21C9BD33C001769BA /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BE94C11C9BD33C001769BA /* LeftViewController.m */; };
 		71E0EE1E1CDAF0B400A68707 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E0EE1D1CDAF0B400A68707 /* BaseTableViewController.m */; };
+		C55DA24B206356AD00FFD53D /* ManagerVideoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C55DA24A206356AD00FFD53D /* ManagerVideoTool.m */; };
+		C55DA25020637DBB00FFD53D /* UIView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = C55DA24F20637DBB00FFD53D /* UIView+Extend.m */; };
+		C5EAD87F20687DAB00F6AD8C /* ManagerCoreBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EAD87E20687DAB00F6AD8C /* ManagerCoreBluetooth.m */; };
+		DDD2C88F80BA712D1A2119A3 /* libPods-自定义tabbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E858E549973917CA4A1985 /* libPods-自定义tabbar.a */; };
+		E8AE43A0A051A9A4270F74E5 /* libPods-自定义tabbarTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B15FD9648A94CE1AAE202B /* libPods-自定义tabbarTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,8 +130,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16EA8168B7E5EE41324477FE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		40DA2D0BF6AD323F8CEC6315 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		08B15FD9648A94CE1AAE202B /* libPods-自定义tabbarTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-自定义tabbarTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E81E70D88D6382B2ACE71E9 /* Pods-自定义tabbar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自定义tabbar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-自定义tabbar/Pods-自定义tabbar.debug.xcconfig"; sourceTree = "<group>"; };
+		6F0C49F13748BDC125D7CD52 /* Pods-自定义tabbarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自定义tabbarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-自定义tabbarTests/Pods-自定义tabbarTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7103E3041C9945D9006BE342 /* 自定义tabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义tabbar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7103E3081C9945DA006BE342 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7103E30A1C9945DA006BE342 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -242,7 +248,18 @@
 		71BE94C11C9BD33C001769BA /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
 		71E0EE1C1CDAF0B400A68707 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
 		71E0EE1D1CDAF0B400A68707 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
-		A50E51F850B5ACE9E9C98816 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E858E549973917CA4A1985 /* libPods-自定义tabbar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-自定义tabbar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7226E4B590B164B40EC8FA8 /* Pods-自定义tabbarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自定义tabbarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-自定义tabbarTests/Pods-自定义tabbarTests.release.xcconfig"; sourceTree = "<group>"; };
+		BA5D579A53936F7F45E4E082 /* libPods-自定义tabbarUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-自定义tabbarUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55DA249206356AD00FFD53D /* ManagerVideoTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManagerVideoTool.h; sourceTree = "<group>"; };
+		C55DA24A206356AD00FFD53D /* ManagerVideoTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManagerVideoTool.m; sourceTree = "<group>"; };
+		C55DA24E20637DBB00FFD53D /* UIView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extend.h"; sourceTree = "<group>"; };
+		C55DA24F20637DBB00FFD53D /* UIView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extend.m"; sourceTree = "<group>"; };
+		C5EAD87D20687DAB00F6AD8C /* ManagerCoreBluetooth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManagerCoreBluetooth.h; sourceTree = "<group>"; };
+		C5EAD87E20687DAB00F6AD8C /* ManagerCoreBluetooth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManagerCoreBluetooth.m; sourceTree = "<group>"; };
+		C82FEC9781257BE64933D871 /* Pods-自定义tabbarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自定义tabbarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-自定义tabbarUITests/Pods-自定义tabbarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EF6086DF0594C193AE29E9F7 /* Pods-自定义tabbarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自定义tabbarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-自定义tabbarUITests/Pods-自定义tabbarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F49800456A91D12B7801881B /* Pods-自定义tabbar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自定义tabbar.release.xcconfig"; path = "Pods/Target Support Files/Pods-自定义tabbar/Pods-自定义tabbar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,7 +267,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E98FFB858B273AD7F6E4135 /* libPods.a in Frameworks */,
+				DDD2C88F80BA712D1A2119A3 /* libPods-自定义tabbar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +275,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8AE43A0A051A9A4270F74E5 /* libPods-自定义tabbarTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,15 +283,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60C2CCAF3B22AB8292091D12 /* libPods-自定义tabbarUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38C71F54C3926921CE6EB65B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85E858E549973917CA4A1985 /* libPods-自定义tabbar.a */,
+				08B15FD9648A94CE1AAE202B /* libPods-自定义tabbarTests.a */,
+				BA5D579A53936F7F45E4E082 /* libPods-自定义tabbarUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7103E2FB1C9945D9006BE342 = {
 			isa = PBXGroup;
 			children = (
+				C55DA2462063563B00FFD53D /* XDTool */,
 				712D20281C9A4F82003A4115 /* XDSidesLip */,
 				7103E34D1C9954BE006BE342 /* Images */,
 				7103E3491C994693006BE342 /* XDTbabar */,
@@ -281,8 +311,8 @@
 				7103E3231C9945DA006BE342 /* 自定义tabbarTests */,
 				7103E32E1C9945DA006BE342 /* 自定义tabbarUITests */,
 				7103E3051C9945D9006BE342 /* Products */,
-				8ECD8517CE68C8D24D7CBE21 /* Pods */,
-				DC0813B134B92C72BF8B5EFA /* Frameworks */,
+				7ADE24F66C94F9859986AC2B /* Pods */,
+				38C71F54C3926921CE6EB65B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -466,21 +496,30 @@
 			path = ICSDrawerController;
 			sourceTree = "<group>";
 		};
-		8ECD8517CE68C8D24D7CBE21 /* Pods */ = {
+		7ADE24F66C94F9859986AC2B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				40DA2D0BF6AD323F8CEC6315 /* Pods.debug.xcconfig */,
-				16EA8168B7E5EE41324477FE /* Pods.release.xcconfig */,
+				3E81E70D88D6382B2ACE71E9 /* Pods-自定义tabbar.debug.xcconfig */,
+				F49800456A91D12B7801881B /* Pods-自定义tabbar.release.xcconfig */,
+				6F0C49F13748BDC125D7CD52 /* Pods-自定义tabbarTests.debug.xcconfig */,
+				B7226E4B590B164B40EC8FA8 /* Pods-自定义tabbarTests.release.xcconfig */,
+				EF6086DF0594C193AE29E9F7 /* Pods-自定义tabbarUITests.debug.xcconfig */,
+				C82FEC9781257BE64933D871 /* Pods-自定义tabbarUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		DC0813B134B92C72BF8B5EFA /* Frameworks */ = {
+		C55DA2462063563B00FFD53D /* XDTool */ = {
 			isa = PBXGroup;
 			children = (
-				A50E51F850B5ACE9E9C98816 /* libPods.a */,
+				C55DA24E20637DBB00FFD53D /* UIView+Extend.h */,
+				C55DA24F20637DBB00FFD53D /* UIView+Extend.m */,
+				C55DA249206356AD00FFD53D /* ManagerVideoTool.h */,
+				C55DA24A206356AD00FFD53D /* ManagerVideoTool.m */,
+				C5EAD87D20687DAB00F6AD8C /* ManagerCoreBluetooth.h */,
+				C5EAD87E20687DAB00F6AD8C /* ManagerCoreBluetooth.m */,
 			);
-			name = Frameworks;
+			path = XDTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -490,12 +529,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7103E3341C9945DA006BE342 /* Build configuration list for PBXNativeTarget "自定义tabbar" */;
 			buildPhases = (
-				A5C416930CC061572C4E0582 /* Check Pods Manifest.lock */,
+				EAE9A8DEDC94B1FB62466761 /* [CP] Check Pods Manifest.lock */,
 				7103E3001C9945D9006BE342 /* Sources */,
 				7103E3011C9945D9006BE342 /* Frameworks */,
 				7103E3021C9945D9006BE342 /* Resources */,
-				BAFB517A9A10C45230E615ED /* Embed Pods Frameworks */,
-				5AD0946AE56462F186D114FD /* Copy Pods Resources */,
+				25530D4B38BB9291FB125A8F /* [CP] Embed Pods Frameworks */,
+				059E4285462B5C841C853812 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -510,9 +549,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7103E3371C9945DA006BE342 /* Build configuration list for PBXNativeTarget "自定义tabbarTests" */;
 			buildPhases = (
+				5887973C993C038594E5523C /* [CP] Check Pods Manifest.lock */,
 				7103E31C1C9945DA006BE342 /* Sources */,
 				7103E31D1C9945DA006BE342 /* Frameworks */,
 				7103E31E1C9945DA006BE342 /* Resources */,
+				54AEF39375B6DF74A736DFCE /* [CP] Embed Pods Frameworks */,
+				EDBC4319249FA2C00867A85D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -528,9 +570,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7103E33A1C9945DA006BE342 /* Build configuration list for PBXNativeTarget "自定义tabbarUITests" */;
 			buildPhases = (
+				15B7DDFD1EFB2ABD37B43D8A /* [CP] Check Pods Manifest.lock */,
 				7103E3271C9945DA006BE342 /* Sources */,
 				7103E3281C9945DA006BE342 /* Frameworks */,
 				7103E3291C9945DA006BE342 /* Resources */,
+				B73468F1880E43F715A3227E /* [CP] Embed Pods Frameworks */,
+				9A6CA85730A1D8B4ADC1C26A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -553,6 +598,8 @@
 				TargetAttributes = {
 					7103E3031C9945D9006BE342 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3586XULAP8;
+						LastSwiftMigration = 0920;
 					};
 					7103E31F1C9945DA006BE342 = {
 						CreatedOnToolsVersion = 7.2;
@@ -692,49 +739,157 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5AD0946AE56462F186D114FD /* Copy Pods Resources */ = {
+		059E4285462B5C841C853812 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-自定义tabbar/Pods-自定义tabbar-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A5C416930CC061572C4E0582 /* Check Pods Manifest.lock */ = {
+		15B7DDFD1EFB2ABD37B43D8A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-自定义tabbarUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BAFB517A9A10C45230E615ED /* Embed Pods Frameworks */ = {
+		25530D4B38BB9291FB125A8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-自定义tabbar/Pods-自定义tabbar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-自定义tabbar/Pods-自定义tabbar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54AEF39375B6DF74A736DFCE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-自定义tabbarTests/Pods-自定义tabbarTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5887973C993C038594E5523C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-自定义tabbarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A6CA85730A1D8B4ADC1C26A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-自定义tabbarUITests/Pods-自定义tabbarUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B73468F1880E43F715A3227E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-自定义tabbarUITests/Pods-自定义tabbarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAE9A8DEDC94B1FB62466761 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-自定义tabbar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDBC4319249FA2C00867A85D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-自定义tabbarTests/Pods-自定义tabbarTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -747,14 +902,17 @@
 				712D202F1C9A8739003A4115 /* ICSDropShadowView.m in Sources */,
 				71BE94C21C9BD33C001769BA /* LeftViewController.m in Sources */,
 				712D202E1C9A8739003A4115 /* ICSDrawerController.m in Sources */,
+				C55DA24B206356AD00FFD53D /* ManagerVideoTool.m in Sources */,
 				7103E3481C994669006BE342 /* FourthViewController.m in Sources */,
 				7103E3421C994647006BE342 /* SecondViewController.m in Sources */,
 				7103E30C1C9945DA006BE342 /* AppDelegate.m in Sources */,
 				7194FC1B1CDA01560043A13F /* XdTabView.m in Sources */,
 				7103E34C1C9946D1006BE342 /* XDTarBarViewController.m in Sources */,
 				7103E33F1C99461C006BE342 /* firstViewController.m in Sources */,
+				C55DA25020637DBB00FFD53D /* UIView+Extend.m in Sources */,
 				7103E3451C994659006BE342 /* ThereViewController.m in Sources */,
 				71E0EE1E1CDAF0B400A68707 /* BaseTableViewController.m in Sources */,
+				C5EAD87F20687DAB00F6AD8C /* ManagerCoreBluetooth.m in Sources */,
 				7103E3091C9945DA006BE342 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -886,36 +1044,44 @@
 		};
 		7103E3351C9945DA006BE342 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40DA2D0BF6AD323F8CEC6315 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 3E81E70D88D6382B2ACE71E9 /* Pods-自定义tabbar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 3586XULAP8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/yangchao/codeManage/自定义tabbar/自定义tabbar/XDPrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/自定义tabbar/XDPrefixHeader.pch";
 				INFOPLIST_FILE = "自定义tabbar/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.5u51.---tabbar";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tiplus.zuoyeah;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		7103E3361C9945DA006BE342 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16EA8168B7E5EE41324477FE /* Pods.release.xcconfig */;
+			baseConfigurationReference = F49800456A91D12B7801881B /* Pods-自定义tabbar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 3586XULAP8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/yangchao/codeManage/自定义tabbar/自定义tabbar/XDPrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/自定义tabbar/XDPrefixHeader.pch";
 				INFOPLIST_FILE = "自定义tabbar/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.5u51.---tabbar";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tiplus.zuoyeah;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		7103E3381C9945DA006BE342 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F0C49F13748BDC125D7CD52 /* Pods-自定义tabbarTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "自定义tabbarTests/Info.plist";
@@ -928,6 +1094,7 @@
 		};
 		7103E3391C9945DA006BE342 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7226E4B590B164B40EC8FA8 /* Pods-自定义tabbarTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "自定义tabbarTests/Info.plist";
@@ -940,6 +1107,7 @@
 		};
 		7103E33B1C9945DA006BE342 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF6086DF0594C193AE29E9F7 /* Pods-自定义tabbarUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "自定义tabbarUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -952,6 +1120,7 @@
 		};
 		7103E33C1C9945DA006BE342 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C82FEC9781257BE64933D871 /* Pods-自定义tabbarUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "自定义tabbarUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

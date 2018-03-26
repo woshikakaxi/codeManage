@@ -9,10 +9,20 @@
 #ifndef XDPrefixHeader_pch
 #define XDPrefixHeader_pch
 
+#import "UIView+Extend.h"
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
 #define WIDTH [UIScreen mainScreen].bounds.size.width
 #define HEGIHT [UIScreen mainScreen].bounds.size.height
+//以6，6s效果图所需要使用的等比函数
+#define kScaleFrom_iPhone6_Desgin(_X_) (_X_ * (WIDTH / 375))
+
+#define MyString [NSString stringWithFormat:@"%s", __FILE__].lastPathComponent
+#ifdef DEBUG // 处于开发阶段 发布阶段无法输出nslog信息这样的话可以节省手机内存资源
+#define DebugLog(...) printf("%s 第%d行: %s\n\n",[MyString UTF8String] ,__LINE__, [[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
+#else // 处于发布阶段
+#define DebugLog(...)
+#endif
 
 #endif /* XDPrefixHeader_pch */

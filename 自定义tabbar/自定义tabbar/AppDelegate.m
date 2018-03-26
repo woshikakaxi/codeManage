@@ -14,7 +14,6 @@
 #import "ThereViewController.h"
 #import "FourthViewController.h"
 #import "LeftViewController.h"
-#import <AFNetworking/AFNetworking.h>
 
 
 @interface AppDelegate ()
