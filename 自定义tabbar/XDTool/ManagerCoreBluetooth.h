@@ -13,4 +13,5 @@
 
 //启动蓝牙搜索设备
 -(void)startScan;
+
 @end

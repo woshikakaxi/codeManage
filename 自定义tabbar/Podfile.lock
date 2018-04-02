@@ -14,16 +14,22 @@ PODS:
   - AFNetworking/Serialization (3.0.4)
   - AFNetworking/UIKit (3.0.4):
     - AFNetworking/NSURLSession
+  - HYBHelperKit (0.2.0):
+    - Masonry (~> 1.0.1)
+  - Masonry (1.0.2)
   - ReactiveObjC (3.1.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0.4)
+  - HYBHelperKit (~> 0.2.0)
   - ReactiveObjC (~> 3.1.0)
 
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  HYBHelperKit: 504b3ef89778c1d7f4bd8faf0abfeed96cd2e5f9
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
 
-PODFILE CHECKSUM: 8bffb4668fd075bd53ac1cc6c8dd42233b0444fd
+PODFILE CHECKSUM: 30d0f127314585d940ddd608d299e5454a706f96
 
 COCOAPODS: 1.3.1

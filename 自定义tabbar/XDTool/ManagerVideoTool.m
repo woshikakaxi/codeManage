@@ -24,16 +24,18 @@
     });
     return VideoTool;
 }
-
++(void)load{
+    //编译器中存在此文件的情况下调用了该方法
+}
++(void)initialize{
+    //第一次使用该类的时候调用了该方法
+}
 -(void)showManagerPicker:(UIViewController *)ViewController Finshed:(void(^)(NSString *ViedoFilePath))finshed{
     self.Controller = ViewController;
     if (!TARGET_IPHONE_SIMULATOR) {
         [ViewController presentViewController:self.MyVideoPicker animated:YES completion:nil];
     }else{
-    
     }
-    
-
 }
 -(UIImagePickerController *)MyVideoPicker{
     if (_MyVideoPicker == nil){
@@ -83,7 +85,7 @@
         }
     }];
 }
-//获取文件内容的大小单位是B
+//获取文件内容的大小单位是
 -(CGFloat)requestVideoContentSize:(NSString *)filePath{
     NSFileManager *manager = [NSFileManager defaultManager];
     if ([manager fileExistsAtPath:filePath]) {

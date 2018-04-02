@@ -105,6 +105,9 @@
 		7194FC1B1CDA01560043A13F /* XdTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7194FC1A1CDA01560043A13F /* XdTabView.m */; };
 		71BE94C21C9BD33C001769BA /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BE94C11C9BD33C001769BA /* LeftViewController.m */; };
 		71E0EE1E1CDAF0B400A68707 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E0EE1D1CDAF0B400A68707 /* BaseTableViewController.m */; };
+		C5224573206BB1C700B01E7E /* UIViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C5224572206BB1C700B01E7E /* UIViewController+Category.m */; };
+		C537EB8E206CB7E3001A6090 /* NSArray+MyBeyond.m in Sources */ = {isa = PBXBuildFile; fileRef = C537EB8D206CB7E3001A6090 /* NSArray+MyBeyond.m */; };
+		C537EB91206DDFF6001A6090 /* NSMutableArray+MyBeyond.m in Sources */ = {isa = PBXBuildFile; fileRef = C537EB90206DDFF6001A6090 /* NSMutableArray+MyBeyond.m */; };
 		C55DA24B206356AD00FFD53D /* ManagerVideoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C55DA24A206356AD00FFD53D /* ManagerVideoTool.m */; };
 		C55DA25020637DBB00FFD53D /* UIView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = C55DA24F20637DBB00FFD53D /* UIView+Extend.m */; };
 		C5EAD87F20687DAB00F6AD8C /* ManagerCoreBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EAD87E20687DAB00F6AD8C /* ManagerCoreBluetooth.m */; };
@@ -251,6 +254,12 @@
 		85E858E549973917CA4A1985 /* libPods-自定义tabbar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-自定义tabbar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7226E4B590B164B40EC8FA8 /* Pods-自定义tabbarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自定义tabbarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-自定义tabbarTests/Pods-自定义tabbarTests.release.xcconfig"; sourceTree = "<group>"; };
 		BA5D579A53936F7F45E4E082 /* libPods-自定义tabbarUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-自定义tabbarUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5224571206BB1C700B01E7E /* UIViewController+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Category.h"; sourceTree = "<group>"; };
+		C5224572206BB1C700B01E7E /* UIViewController+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Category.m"; sourceTree = "<group>"; };
+		C537EB8C206CB7E3001A6090 /* NSArray+MyBeyond.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MyBeyond.h"; sourceTree = "<group>"; };
+		C537EB8D206CB7E3001A6090 /* NSArray+MyBeyond.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MyBeyond.m"; sourceTree = "<group>"; };
+		C537EB8F206DDFF6001A6090 /* NSMutableArray+MyBeyond.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+MyBeyond.h"; sourceTree = "<group>"; };
+		C537EB90206DDFF6001A6090 /* NSMutableArray+MyBeyond.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+MyBeyond.m"; sourceTree = "<group>"; };
 		C55DA249206356AD00FFD53D /* ManagerVideoTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManagerVideoTool.h; sourceTree = "<group>"; };
 		C55DA24A206356AD00FFD53D /* ManagerVideoTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManagerVideoTool.m; sourceTree = "<group>"; };
 		C55DA24E20637DBB00FFD53D /* UIView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extend.h"; sourceTree = "<group>"; };
@@ -514,10 +523,16 @@
 			children = (
 				C55DA24E20637DBB00FFD53D /* UIView+Extend.h */,
 				C55DA24F20637DBB00FFD53D /* UIView+Extend.m */,
+				C537EB8C206CB7E3001A6090 /* NSArray+MyBeyond.h */,
+				C537EB8D206CB7E3001A6090 /* NSArray+MyBeyond.m */,
+				C537EB8F206DDFF6001A6090 /* NSMutableArray+MyBeyond.h */,
+				C537EB90206DDFF6001A6090 /* NSMutableArray+MyBeyond.m */,
 				C55DA249206356AD00FFD53D /* ManagerVideoTool.h */,
 				C55DA24A206356AD00FFD53D /* ManagerVideoTool.m */,
 				C5EAD87D20687DAB00F6AD8C /* ManagerCoreBluetooth.h */,
 				C5EAD87E20687DAB00F6AD8C /* ManagerCoreBluetooth.m */,
+				C5224571206BB1C700B01E7E /* UIViewController+Category.h */,
+				C5224572206BB1C700B01E7E /* UIViewController+Category.m */,
 			);
 			path = XDTool;
 			sourceTree = "<group>";
@@ -907,10 +922,13 @@
 				7103E3421C994647006BE342 /* SecondViewController.m in Sources */,
 				7103E30C1C9945DA006BE342 /* AppDelegate.m in Sources */,
 				7194FC1B1CDA01560043A13F /* XdTabView.m in Sources */,
+				C537EB8E206CB7E3001A6090 /* NSArray+MyBeyond.m in Sources */,
 				7103E34C1C9946D1006BE342 /* XDTarBarViewController.m in Sources */,
 				7103E33F1C99461C006BE342 /* firstViewController.m in Sources */,
 				C55DA25020637DBB00FFD53D /* UIView+Extend.m in Sources */,
+				C537EB91206DDFF6001A6090 /* NSMutableArray+MyBeyond.m in Sources */,
 				7103E3451C994659006BE342 /* ThereViewController.m in Sources */,
+				C5224573206BB1C700B01E7E /* UIViewController+Category.m in Sources */,
 				71E0EE1E1CDAF0B400A68707 /* BaseTableViewController.m in Sources */,
 				C5EAD87F20687DAB00F6AD8C /* ManagerCoreBluetooth.m in Sources */,
 				7103E3091C9945DA006BE342 /* main.m in Sources */,

@@ -22,6 +22,10 @@
     });
     return coreBlue;
 }
++(void)load{
+    
+}
+
 -(CBCentralManager *)centralManager{
     if (_centralManager == nil) {
         _centralManager = [[CBCentralManager alloc]initWithDelegate:self queue:dispatch_get_main_queue()];
@@ -43,5 +47,9 @@
         DebugLog(@"该设备蓝牙已关闭");
     }
 }
-//挡扫描到外设设备之后会调用一下的方法
+//挡扫描到外设设备之后会调用一下方法进行筛选蓝牙连接的工作
+-(void)centralManager:(CBCentralManager *)central didDiscoverPeripheral:(CBPeripheral *)peripheral advertisementData:(NSDictionary<NSString *,id> *)advertisementData RSSI:(NSNumber *)RSSI{
+    DebugLog(@"查看返回的数据是什么%@",peripheral.name);
+    DebugLog(@"查看该类中包含的数据是什么%@",peripheral);
+}
 @end

@@ -4,6 +4,8 @@
 target '自定义tabbar' do
     pod 'AFNetworking', '~> 3.0.4'
     pod 'ReactiveObjC', '~> 3.1.0'
+    pod 'HYBHelperKit', '~> 0.2.0'
+    
   target '自定义tabbarTests' do
     inherit! :search_paths
     # Pods for testing

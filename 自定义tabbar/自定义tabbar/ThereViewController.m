@@ -9,6 +9,8 @@
 #import "ThereViewController.h"
 #import "ManagerVideoTool.h"
 #import <ReactiveObjC/ReactiveObjC.h>
+//#import "NSArray+MyBeyond.h"
+//#import "NSMutableArray+MyBeyond.h"
 @interface ThereViewController ()
 @property (nonatomic,strong) UIButton *VideoBtn;
 @end
@@ -19,8 +21,14 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.VideoBtn];
+    NSArray *commonArray = @[@"1",@"2",@"3"];
+//    DebugLog(@"查看返回的数据是什么%@", [commonArray objectAtIndex:3]);
+    NSMutableArray *tableCommonArray = [[NSMutableArray alloc]initWithArray:commonArray];
+
+    DebugLog(@"查看可变数组之后替换是否可以用%s",object_getClassName(tableCommonArray[0]));
 }
 -(void)pressblock{
+    
     if (self.returnrefreshColorBlock) {
         self.returnrefreshColorBlock();
     }
